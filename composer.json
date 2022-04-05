@@ -1,0 +1,35 @@
+{
+    "name": "ritaco/users",
+    "description": "Users plugin for CakePHP",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+	"authors": [
+        {
+            "name": "Saleh Souzanchi",
+            "role": "Author",
+            "homepage": "http://soozanchi.ir"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "cakephp/cakephp": "^4.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5 || ^9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Users\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Users\\Test\\": "tests/",
+            "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
+        }
+    },
+	"support":{
+        "source": "https://github.com/RitaCo/Users",
+        "issues": "https://github.com/RitaCo/Users/issues"
+    },
+}
